@@ -1,0 +1,489 @@
+/*https://colorlib.com/wp/template/fox/*/
+
+/* Start Upperbar*/
+.bg-dark{
+    padding: 15px;
+}
+.navbar-light .navbar-nav .nav-link{
+    transition: all .5s ease-in-out;
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #e56a01;
+}
+
+.navbar-light .navbar-nav .active .nav-link
+{
+    color: #e56a01;
+}
+
+.navbar-light .navbar-nav .active .nav-link:hover
+{
+    color: #fff;
+}
+
+.upper-par ul li {
+    margin-left: 20px;
+}
+
+.upper-par form {
+    border: 1px solid #625e5e;
+    border-radius: 40px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+ .upper-par form .search{
+     width: 300px;
+     border:none;
+     background-color: rgba(0,0,0,0);
+     color: #b9b6b6;
+     margin-right: 10px;
+     margin-left: 0;
+}
+
+.upper-par form i {
+   color: #b9b6b6;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* End Upperbar */
+/* Start carosel */
+.slider{
+   background-color: #ddd;
+}
+
+.slider .carousel-inner .over-lay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(141, 91, 25, 0.7);
+    z-index: 2;
+}
+
+
+.slider .carousel-inner h1 {
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    top: 28%;
+    left: 8%;
+    width: 500px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 50px;
+}
+.slider .carousel-inner p {
+    position: absolute;
+    color: #fff;
+    z-index: 3;
+    top: 53%;
+    left: 8%;
+    max-width: 520px;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 20px;
+}
+.slider .carousel-inner a{
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    top:67%;
+    left: 8%;
+    background-color: #e56a01;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-weight: 400;
+    font-family: arial;
+    transition: all .5s ease-in-out;
+    border: 1px solid #e56a01;
+}
+.slider .carousel-inner a:hover{
+    text-decoration: none;
+    background-color:rgba(0,0,0,0);
+    color: #e56a01;
+    border: 1px solid #e56a01;
+}
+.slider .carousel-item{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider .carousel-one{
+    background-image: url('../image/1.jpg');
+}
+
+.slider .carousel-tow{
+    background-image: url('../image/2.jpg');
+}
+.slider .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.slider .carousel-indicators .active {
+    background-color: #e56a01;
+}
+
+/* End Carosel */
+
+/* Start Learn */
+.learn{
+    padding: 0 15px;
+}
+.learn .teachers {
+    padding: 60px 20px;
+    background-color: #e56a01;
+    color: #fff;
+    font-family: arial;
+    font-weight: normal;
+}
+.learn .teachers i {
+    margin-bottom: 40px;
+}
+.learn .teachers h3 {
+    margin-bottom: 20px;
+}
+.learn .teachers p {
+     line-height: 1.8;
+}
+
+.learn .special {
+    padding: 60px 20px;
+    background-color: #343a40;
+    color: #fff;
+    font-family: arial;
+    font-weight: normal;
+}
+.learn .special i {
+    margin-bottom: 40px;
+}
+.learn .special h3 {
+    margin-bottom: 20px;
+}
+.learn .special p {
+     line-height: 1.8;
+}
+
+
+/* End Learn */
+/* Start What we */
+.what-we h3 {
+    margin: 30px 0 ;
+    font-size: 30px;
+    font-family: arial
+}
+.what-we .lead {
+    max-width: 650px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.what-we .media{
+    margin-bottom: 20px;
+    max-width: 270px;
+}
+.what-we .media i {
+    background-color: #e56a01;
+    color: #fff;
+    padding: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/*End What We*/
+/*Start Fox University*/
+.fox{
+    background-size: cover;
+    background-image: url("../image/fox/1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fox .uni{
+    background-color:rgba(141, 91, 25, 0.7); 
+    height: 100%;
+}
+
+.fox .uni img {
+    margin:70px auto;
+}
+
+.fox .uni h2 {
+    margin: 70px auto;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+}
+.fox .uni p{
+    color: #d0d0d0;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.fox .uni .text-center .h1 {
+    margin:20px auto;
+}
+
+/*End Fox University*/
+
+/* Start Our Courses*/
+.our-courser{
+    padding: 100px;
+}
+.our-courser .h1{
+    margin-bottom:50px;
+}
+
+.our-courser p{
+    font-family: arial;
+  font-weight: 200;
+    font-size: 18px;
+    color: #aaaaaa;
+}
+
+.main-card .card{
+    border: none;
+}
+
+.main-card .card .card-title{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-card .card p{
+    color: #8e8e8e;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 20px;
+}
+.main-card .card .card-link{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #e56a01;
+    color: #fff;
+    border: 1px solid #e56a01;
+    border-radius: 40px;
+    transition: all .5s ease-in-out;
+}
+.main-card .card .card-link:hover {
+    background-color:rgba(0,0,0,0);
+    color: #e56a01;
+}
+
+/*End Our COurses*/
+/* Start request*/
+.request{
+    background-size: cover;
+    background-image: url("../image/4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+.request .over-lay{
+    background-color: rgba(141, 91, 25, 0.7);
+    height: 100%;
+}
+
+.request .in {
+    width: 700px;
+    margin-left: 50%;
+    margin-top: 100px;
+}
+
+.request .in .h1 {
+    font-family: arial;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.request .in p {
+    font-family: arial;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.request .in .form-group input,select,textarea{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid #a2a2a2;
+    width: 46%;
+    padding: 20px;
+    margin: 0 10px 20px 0 ;
+    color: #fff;
+    font-weight: bold;
+}
+
+.request .in .form-group textarea {
+    resize:none;
+}
+
+.request .in .form-group .ag{
+    display: inline-block;
+    position: absolute;
+    padding: 18px 50px;
+    background-color: #e56a01;
+    color: #fff;
+    border: 1px solid #e56a01;
+    border-radius: 40px;
+    transition: all .5s ease-in-out;
+    bottom: 40px;
+    right: 50px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.request .in .form-group .ag:hover{
+    text-decoration: none;
+    background-color:rgba(0,0,0,0);
+    color: #e56a01;
+    border: 1px solid #e56a01;
+}
+::-webkit-input-placeholder{
+    color: #bfbfbf;
+}
+
+
+/*End request*/
+
+/*Start Footer*/
+.footer {
+    background-color: #343a40;
+    padding: 50px;
+}
+
+.footer h5{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.footer .p{
+    color: #d8d8d8;
+    font-weight: 400;
+}
+.footer .p:nth-of-type(1):before{
+    font-family: 'FontAwesome';
+    content: "\f041";
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer .p:nth-of-type(2):before{
+    font-family: 'FontAwesome';
+    content: "\f095";
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer .p:last-of-type:before{
+    font-family: 'FontAwesome';
+    content: "\f0e0";
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer .Recent .media{
+    margin-bottom: 40px;
+}
+
+.footer .Recent img{
+    margin-right: 20px;
+}
+.footer .Recent .media p{
+    color: #d8d8d8;
+    font-weight: 400;
+    font-family: arial;
+    font-size: 18px;
+}
+.footer .Recent .media i, span{
+    margin-right: 5px;
+    color: #808080;
+    font-size: 10px;
+}
+
+
+.footer .ul li{
+    color: #d8d8d8;
+}
+
+.footer .ul li:before{
+    font-family: 'FontAwesome';
+    content: "\f054";
+    display: inline-block;
+    margin-right: 5px;
+    color: #d8d8d8;
+    font-size: 10px;
+}
+
+.footer input{
+    width: 300px;
+    padding: 15px 0;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #625e5e;
+    color: #b9b6b6;
+    border-radius: 15px;
+    background-color: #343a40;
+}
+
+.footer button{
+    width: 300px;
+    padding: 15px 0;
+    margin-top: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #542dbc;
+    border-radius: 10px;
+}
+
+.footer h2 {
+    color: #d8d8d8;
+    font-weight: 400;
+    font-family: arial;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.footer .s i{
+    color: #d8d8d8;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(0,0,0,.4);
+}
+
+.footer .copyright{
+    color: #d8d8d8;
+    font-weight: 400;
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 60px;
+}
+
